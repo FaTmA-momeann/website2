@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav> ul{
+    position: relative;
+    margin: 70px 200px;
+    display:inline-flex;
+    width: 1000px;
+    justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    color: rgb(173, 60, 60);
+    font-size: 20px;
+}
+nav a{
+    color:  rgb(157, 103, 145);
+    text-decoration: none;
+    display: block;
+}
+nav > ul > li > a{
+    padding: 15px  30px;
+}
+nav ul .choosetable{
+    padding:40px 40px 0 40px ;
+    text-align: left;
+    border: 1px solid black;
+    background-color: F7F1E5;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    left: 0;
+    opacity: 0;
+    width:470px ;
+    margin-left: 120px;
+}
+nav ul li:hover ul.choosetable{
+    opacity: 1;
+}
+nav ul .choosetable ul{
+    color: rgb(30, 30, 31);
+    margin-left: 50px;
+    margin-bottom: 30px; 
+}
+nav ul.choosetable h6{
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+nav ul.choosetable ul li a{
+    color:rgb(158, 119, 150) ;
+    font-size: 18px ;
+    line-height: 21px;
+}
+.titltsection1{
+    position: absolute;
+    margin-top: -120px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+.iconsection1{
+    position: absolute;
+    margin-left: 1190px;
+    margin-top: -115px;
+    font-size: 30px;
+}
+.iconsection1  .zero{
+    color:rgb(158, 119, 150) ;
+}
+.iconsection1  .mine{
+    position: absolute;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.iconsection1  .ptitle{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.imgsection1{
+    margin-left: 137px;
+    width: 200px;
+}
+.imgsection1  .phototitle{
+    position: absolute;
+    margin-top: -440px;
+    margin-left: 750px;
+}
+.parsection1{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 80px;
+    color: rgb(158, 119, 150);
+}
+.section2{
+    width: 100%;
+    height: 200vh;
+}
+.lin7{
+    background-color: black;
+    width: 130px;
+    height: 1.8px;
+    margin: 10px   auto;
+    transition: 1s;
+}
+.titlespecal:hover  .lin7{
+    transform: scale(1.5);
+}
+.titlespecal{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.specialcontent{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(2,400px);
+    margin-right: 254px;
+    margin-left: 20px;
+    gap: 15px;
+}
+.specialimag{
+    padding-left: 100px;
+}
+.specialimag   .n1{
+    margin-top: 10px;
+    margin-right: -5px;
+}
+.specialimag  .n2{
+    margin-top: 6px;
+}
+.specialimag  .mov1{
+    margin-top: 40px;
+}
+.specialimag  i{
+    width: 30px;
+    float: left;
+    padding-left: 10px;
+    margin-left: 220px;
+    margin-top: -19px;
+    font-size: 23px;
+    background-color:rgb(158, 119, 150) ;
+    color: aliceblue;
+    opacity: 0;
+}
+
+.chick:hover   .specialimag  i{
+   opacity: 1;
+}
+.desinparagraph{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 50px ;
+    padding-top: 40px;
+    background-color:F7F1E5;
+    width: 600px;
+    height: 300px;
+    line-height: 20px;
+    font-size: 17px;
+    position: relative;
+    line-height: 26px;
+    margin-left: 100px;
+}
+.desinparagraph   h2{
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.desin1ph3  p{
+    color:rgb(138, 95, 130) ;
+}
+.desinparagraph  i{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -30px;
+    font-size: 40px;
+    color: rgb(157, 103, 145) ;
+}
+.desin1{
+    position: relative;
+    transition: 1s;
+    padding-top: 50px;
+    padding-left: 170px;
+}
+.desin1:hover{
+    transform: scale(1.3);
+}
+.desin1ph3{
+    position: absolute;
+    margin-top: -320px;
+    margin-left: -100px;
+}
+.lin1{
+    background-color: rgb(157, 103, 145);
+    color:rgb(32, 30, 31) ;
+    width: 66px;
+    height: 3px;
+    float: left;
+    margin-left: 15;
+}
+.desinline{
+    padding-left: 280px;
+    padding-top: 70px;
+}
+.contenticon{
+    width: 1200px;
+    margin: auto;
+}
+.lineicons{
+  display: grid;
+  grid-template-columns:repeat(5,1fr) ;
+  gap: 60px;
+  background-color:F7F1E5 ;
+}
+.items{
+    height: 100px;
+    background-image: url(../image/icons.png);
+    background-repeat: no-repeat;
+    transition: 1s ease;
+    border: 2px solid beige;
+}
+.item1{
+    background-position: center  -30px;
+}
+.item1:hover {
+    background-position: center -130px;
+}
+
+.item2{
+    background-position: center  -217px;
+}
+.item2:hover {
+    background-position: center -310px;
+}
+.item3{
+    background-position: center  -400px;
+}
+.item3:hover {
+    background-position: center -489px;
+}
+.item4{
+    background-position: center  -585px;
+}
+.item4:hover {
+    background-position: center -684px;
+}
+.item5{
+    background-position: center  -770px;
+}
+.item5:hover {
+    background-position: center -860px;
+}
+.itemsph{
+    margin-top: 115px;
+    line-height: 35px;
+}
+.longline{
+    width: 1200px;
+    height: 1px;
+    background-color: black;
+    margin: 110px   auto;
+}
+.section3{
+    height: 130vh;
+}
+.titllsection3{
+    margin-top: -230px;
+    margin-left: 640px;
+}
+.lin3{
+    background-color: black;
+    width: 130px;
+    height: 1.8px;
+    margin: 10px   auto;
+    transition: 1s;
+}
+.hover3:hover  .lin3{
+    transform: scale(1.5);
+}
+.listsection3  ul{
+    list-style: none;
+    width: 1000px;
+    margin: 30px  480;
+}    
+.listsection3  ul  li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.privetparent{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.privetparent , .img3D , .img3D2{
+    width: 250px;
+    height: 250px;
+}   
+.img3D ,.img3D2{
+    position: absolute;
+}
+.img3D{
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.privetparent:hover{
+    transform: rotateY(180deg);
+}
+.img3D2{
+    transform: rotateY(180deg);
+}
+.icons2section3{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 50px;
+}
+.icons2section3  i{
+    margin-left: 4px;
+    color: aliceblue;
+    background-color:rgb(157, 103, 145) ;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.parentsection3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-left: 120px;
+}
+.iconsection3{
+    color: rgb(255, 255, 0);
+}
+
